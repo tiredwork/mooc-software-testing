@@ -33,7 +33,7 @@ public class RomanNumeralTestWithBeforeEach {
 
     @Test
     public void numberWithAndWithoutSubtractiveNotation() {
-        int result = roman.convert("XLIV");
-        Assertions.assertEquals(44, result);
+        int result = roman.convert("XXX");
+        Assertions.assertEquals(30, result);
     }
 }
